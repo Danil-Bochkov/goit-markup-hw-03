@@ -373,6 +373,9 @@ p {
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    
     font-family: 'Raleway';
     text-decoration: none;
     font-weight: 700;
@@ -381,8 +384,6 @@ p {
 }
 
 .footer-list {
-    margin-top: 20px;
-
     font-size: 14px;
     line-height: 1.71;
 }
@@ -398,4 +399,8 @@ p {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
     color: var(--accent-color);
+}
+
+img {
+    display: block;
 }
